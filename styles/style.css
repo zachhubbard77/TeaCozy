@@ -45,6 +45,9 @@ header .nav {
     margin: 0 auto;
 }
 
+h2 {
+    font-weight: bold;
+}
 .mission {
     background-image: url(../images/img-mission-background.jpg);
     height: 759px;
@@ -63,7 +66,8 @@ header .nav {
 .miniwrap {
     width: 1000px;
     margin: 0 auto;
-    margin-top: 75px;
+    padding-top: 75px;
+    margin-bottom: 50px;
 }
 
 .miniwrap img {
@@ -86,4 +90,42 @@ header .nav {
 .gallery h4 {
     padding: 0;
     margin-top: 10px;
+}
+
+.location {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 50px;
+}
+
+.location h2 {
+    margin-bottom: 15px;
+}
+
+.locationlist {
+    display: flex;
+    justify-content: center
+}
+
+.place {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+        
+}
+
+#placecenter {
+    margin: 0 40px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer p {
+    text-align: left;
+    margin-left: 20px;
 }
